@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body{
+    /* margin: 0px 99.6px;
+    padding: 36px 55px; */
+}
+.upper-nav{
+    background-color: black;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+.upper-nav-image{
+    width: 17.3px;
+    height: 17.3px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.upper-nav-image:hover{
+    transform: scale(1.1);
+    text-transform: none;
+}
+.upper-navp{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 11px 0px;
+    /* @media screen and(min-heigh:50vh) {
+            color: black;
+        } */
+    
+}
+.lower-nav{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    margin: 0px 100px;
+    padding: 20px 55px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.lower-nav-image{
+    width: 120px;
+    height: 26px;
+}
+.header-home{
+    color: #ffffff;
+    /* margin-left: 36px;
+    margin-right: 15px; */
+}
+.header-elements{
+    text-decoration: none;
+    color: #ffffffbf;
+    /* margin: 0px 10px; */
+}
+.header-elements:hover{
+    color: white;
+    text-decoration: underline;
+}
+.header-image1:hover{
+    transform: scale(1.1);
+}
+.header-image2:hover{
+    transform: scale(1.1);
+}
+.header-image1{
+    width: 22px;
+    height: 22px;
+    margin-left: 57%;
+    background-color: black;
+}
+.header-image2{
+    width: 48.5px;
+    height: 48.5px;
+    margin-left: 10px;
+}
+.section1-img{
+    width: 362.29px;
+    height: 362.29px;
+    /* padding-left: 10px;
+    padding-right: 5px; */
+}
+.section1{
+    margin: 0px 99.6px;
+    padding: 36px 55px;
+    display: grid;
+    /* width: 100%; */
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-self: center;
+    
+    
+}
+.imgdivsec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2-img{
+    width: 393px;
+    height: 527px;
+}
+.section2{
+    margin: 0px 99.6px;
+    padding: 36px 55px;
+    display: flex;
+}
+.section2h{
+    font-size: 24px;
+    font-weight: 400;
+}
+.section2p{
+    font-size: 19.8px;
+    color: grey;
+    margin-top: 20px;
+
+}
+.section2button{
+    width: 146.59px;
+    height: 49.5px;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.section2button:hover{
+    transform: scale(1.05);
+}
+.section2-texts{
+    width: auto;
+    height: fit-content;
+    position: relative;
+    left: 80px;
+    top: 80px;
+    
+}
+.shippingnote{
+    font-size: 13px;
+}
+.upper-footer{
+    margin-top: 48px;
+    width: 100%;
+    background-color: black;
+    height: 320px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+.footer-h2{
+    font-size: 18px;
+    margin-bottom: 22px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17.6px;
+    color: #ffffffb3;
+    margin-bottom: 17.6px;
+}
+.footer-numbers:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-logo{
+    width: 48px;
+    height: 48px;
+    background-color: black;
+}
+.footer-logo:hover{
+    transform: scale(1.1);
+}
+.lower-footer{
+    width: 100%;
+    height: 120.4px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-text-2{
+    text-decoration: none;
+    color: #ffffffb3;
+    font-size: 11.68px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.ulclass{
+    width: auto;
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    right: 200px;
+    top: 20px;
+    
+}
+.footer-text-23{
+    text-decoration: none;
+    color: #ffffffb3;
+    font-size: 11.68px;
+    margin-left: 0px;
+    margin-right: 18px;
+}
